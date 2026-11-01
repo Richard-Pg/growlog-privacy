@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>GrowLog 隐私政策</title><meta name="description" content="GrowLog 日记、语音、AI 与分享功能的隐私政策。"><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.85;color:#202521;background:#fafbf9;margin:0}main{max-width:800px;margin:48px auto;padding:32px;background:white;border-radius:20px}h1{font-size:30px;line-height:1.4}h2{font-size:21px;margin-top:32px;color:#244b35}li{margin:8px 0}hr{border:0;border-top:1px solid #e2e8e2;margin:32px 0}@media(max-width:600px){main{margin:0;border-radius:0;padding:24px}h1{font-size:26px}}</style></head><body><main>
+<h1>GrowLog 隐私政策</h1>
+<p><strong>最后更新：2026年10月</strong></p>
+<h2>1. 数据收集与存储</h2>
+<p>GrowLog 致力于保护您的隐私。我们采用以下原则：</p>
+<ul>
+<li>日记与图片默认保存在您的设备本地</li>
+<li>仅在您主动使用 AI 功能时，发送完成该请求所需的文字或音频</li>
+<li>GrowLog 云端服务不持久保存日记正文或录音</li>
+<li>第三方 AI 服务的数据处理方式由其隐私政策说明</li>
+</ul>
+<h2>2. AI 功能说明</h2>
+<p>当您使用 AI 总结功能时：</p>
+<ul>
+<li>启用云端服务的版本会将所选日记经 GrowLog 云端服务转发到您选择的 AI 服务商（Google Gemini 或阿里云 DashScope）</li>
+<li>这是为了生成智能总结所必需的</li>
+<li>您可以选择不使用 AI 功能，完全离线使用本应用</li>
+<li>我们建议您仔细阅读所选 AI 服务商的隐私政策</li>
+</ul>
+<h2>3. 语音输入</h2>
+<p>使用语音输入功能时：</p>
+<ul>
+<li>启用云端服务的版本会将语音经 GrowLog 云端服务转发到所选 AI 服务商进行转录</li>
+<li>转录失败时，录音仅暂存在您的设备，供您手动重试或删除；不会自动重新发送。</li>
+<li>转录成功后清理本机暂存录音，GrowLog 云端不持久保存录音。</li>
+<li>您可以选择不使用语音功能，使用文字输入</li>
+</ul>
+<h2>4. 数据安全</h2>
+<p>我们采取以下措施保护您的数据：</p>
+<ul>
+<li>日记和图片保存在设备沙盒；应用验证公钥、签名计数器和调用次数保存于云端，用于请求验证和调用限额</li>
+<li>利用 iOS 系统的安全机制保护数据</li>
+<li>建议您定期备份设备以防数据丢失</li>
+</ul>
+<h2>5. 第三方服务</h2>
+<p>本应用可能使用以下第三方服务：</p>
+<ul>
+<li>Google Gemini API（用于 AI 总结、语音识别及公开稿辅助）</li>
+<li>阿里云 DashScope API（通义千问，用于 AI 总结、语音识别及公开稿辅助）</li>
+<li>您可以在设置中选择使用哪个服务</li>
+<li>这些服务有各自的隐私政策</li>
+<li>使用前请您自行了解相关政策</li>
+</ul>
+<h2>6. 您的权利</h2>
+<p>您拥有以下权利：</p>
+<ul>
+<li>随时删除应用及所有本地数据</li>
+<li>选择是否使用 AI 功能</li>
+<li>导出您的日记数据</li>
+<li>完全控制您的个人信息</li>
+</ul>
+<h2>7. 分享与发布</h2>
+<ul>
+<li>公开稿、分享卡片和发布记录在设备本地处理，普通分享不经过 GrowLog 云端。</li>
+<li>仅当您主动点击 AI 润色或推荐标签时，当前公开稿的标题与正文经 GrowLog 云端转发到设置中选择的 AI 服务商；不附带照片、其他日记或发布记录，云端不持久保存公开稿。</li>
+<li>润色结果由您确认后采用，标签可取消；不保证平台审核结果或曝光量。</li>
+<li>只有您选择分享、复制、保存到相册或打开 X 发布页面后，所选内容才会交给对应功能或平台。</li>
+<li>是否公开、附带哪些照片和是否显示日期由您决定；分享不改变原日记。</li>
+<li>发布记录由您手动确认；删除本机记录不会删除外部平台的帖子。</li>
+</ul>
+<h2>8. 联系我们</h2>
+<p>如果您对隐私政策有任何疑问，请通过以下方式联系我们：</p>
+<ul>
+<li>应用内反馈功能</li>
+<li>或通过 App Store 评论区</li>
+</ul>
+<hr>
+<p><strong>本隐私政策可能会不时更新。我们会在应用中通知您任何重大变更。</strong></p>
+<p>### 云端服务</p>
+<p>启用云端服务的版本使用 Vercel 转发 AI 请求，并使用 Upstash Redis 保存应用验证信息和调用次数。云端不持久保存日记正文或音频，不记录请求正文、密钥或完整上游响应。仅在您主动使用相应 AI 功能时发送所需内容。</p>
+</main></body></html>
